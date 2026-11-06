@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciência Delas - Mulheres na Ciência</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- menu -->
+  <nav class="menu">
+    <div class="conteudo">
+      <a class="logo" href="#topo">Ciência Delas</a>
+      <ul>
+        <li><a href="#cientistas">Cientistas</a></li>
+        <li><a href="#pesquisas">Pesquisas</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#premios">Prêmios</a></li>
+        <li><a href="#voce">Você</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- topo -->
+  <header class="topo" id="topo">
+    <div class="conteudo">
+      <h1>Ciência Delas</h1>
+      <p>Neste site você conhece mulheres cientistas do Brasil e do mundo e as descobertas que elas fizeram.</p>
+      <a class="botao" href="#cientistas">Conhecer as cientistas</a>
+      <a class="botao botao-claro" href="#voce">Quero fazer parte</a>
+    </div>
+  </header>
+
+  <!-- cientistas -->
+  <section id="cientistas">
+    <div class="conteudo">
+      <h2>Cientistas</h2>
+      <p>Clique em uma cientista para saber mais sobre ela.</p>
+
+      <div class="filtros">
+        <button data-filtro="all" class="ativo">Todas</button>
+        <button data-filtro="Internacional">Internacionais</button>
+        <button data-filtro="Nacional">Nacionais</button>
+      </div>
+
+      <div class="lista-cientistas" id="lista-cientistas"></div>
+
+      <p class="aviso">As fotos vieram da internet (Wikimedia Commons e sites de notícias). Os créditos são dos autores de cada foto.</p>
+    </div>
+  </section>
+
+  <!-- pesquisas -->
+  <section id="pesquisas" class="cinza">
+    <div class="conteudo">
+      <h2>Pesquisas</h2>
+      <p>Quatro descobertas explicadas de um jeito simples.</p>
+
+      <details open>
+        <summary>Radioatividade vem de dentro do átomo</summary>
+        <p><b>Marie Curie</b> mediu a radiação do urânio e viu que ela dependia só da quantidade do elemento, e não de reações químicas. Por isso concluiu que a energia vem de dentro do átomo. Isso ajudou a criar a física nuclear e a radioterapia.</p>
+      </details>
+
+      <details>
+        <summary>A foto que mostrou a forma do DNA</summary>
+        <p><b>Rosalind Franklin</b> usou raios X para fazer a Fotografia 51, que mostrou que o DNA tem formato de hélice. Esses dados foram muito importantes para o modelo de Watson e Crick.</p>
+      </details>
+
+      <details>
+        <summary>Uma tesoura para cortar o DNA</summary>
+        <p><b>Jennifer Doudna</b> e Emmanuelle Charpentier mostraram que a proteína Cas9 pode ser guiada por um RNA para cortar o DNA em um ponto exato. Essa é a base do CRISPR e de terapias genéticas.</p>
+      </details>
+
+      <details>
+        <summary>Células-tronco e doenças musculares</summary>
+        <p><b>Mayana Zatz</b> e o grupo dela na USP estudam como os genes e as células-tronco ajudam a explicar doenças neuromusculares, procurando tratamentos e diagnóstico mais cedo.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- projetos -->
+  <section id="projetos">
+    <div class="conteudo">
+      <h2>Projetos</h2>
+      <p>Algumas áreas da ciência que estão crescendo hoje.</p>
+
+      <div class="projetos">
+        <div class="projeto">
+          <h3>Satélites e meio ambiente</h3>
+          <p>Acompanhar florestas, água e clima vistos do espaço.</p>
+        </div>
+        <div class="projeto">
+          <h3>Edição genética</h3>
+          <p>CRISPR e terapias para doenças raras, sempre pensando na ética.</p>
+        </div>
+        <div class="projeto">
+          <h3>Energia limpa</h3>
+          <p>Energia solar e eólica e formas de guardar energia que sejam acessíveis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- premios -->
+  <section id="premios" class="cinza">
+    <div class="conteudo">
+      <h2>Prêmios</h2>
+      <p>Alguns reconhecimentos que mulheres cientistas receberam.</p>
+
+      <ul class="premios">
+        <li>
+          <b>1903 - Nobel de Física</b><br>
+          Marie Curie dividiu o prêmio com Pierre Curie e Henri Becquerel pelos estudos da radioatividade. Foi a primeira mulher a receber um Nobel.
+        </li>
+        <li>
+          <b>1911 - Nobel de Química</b><br>
+          Marie Curie, sozinha, pela descoberta do polônio e do rádio.
+        </li>
+        <li>
+          <b>2015 - Medalha Presidencial da Liberdade</b><br>
+          Katherine Johnson, cujos cálculos de trajetória foram muito importantes para as missões da NASA.
+        </li>
+        <li>
+          <b>2020 - Nobel de Química</b><br>
+          Jennifer Doudna e Emmanuelle Charpentier, pelo método de edição do genoma CRISPR.
+        </li>
+        <li>
+          <b>Todo ano - Prêmio L'Oréal-UNESCO Para Mulheres na Ciência</b><br>
+          Premia pesquisadoras de várias áreas e países, inclusive brasileiras.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- voce -->
+  <section id="voce" class="roxo">
+    <div class="conteudo">
+      <h2>E você?</h2>
+      <p>Toda cientista começou com uma pergunta. Veja como começar:</p>
+
+      <div class="passos">
+        <div class="passo">
+          <h3>Pergunte</h3>
+          <p>Anote o que você tem curiosidade de saber.</p>
+        </div>
+        <div class="passo">
+          <h3>Estude</h3>
+          <p>Olimpíadas, feiras de ciências e iniciação científica ajudam.</p>
+        </div>
+        <div class="passo">
+          <h3>Procure apoio</h3>
+          <p>Professoras, colegas e mentoras fazem diferença.</p>
+        </div>
+      </div>
+
+      <p id="frase"></p>
+      <button class="botao botao-claro" id="botao-frase">Mostrar outra frase</button>
+    </div>
+  </section>
+
+  <!-- rodape -->
+  <footer>
+    <div class="conteudo">
+      <p><b>Ciência Delas</b> - Mais mulheres na ciência.</p>
+      <p>Fontes: Nobelprize.org, NASA, UNESCO, USP. Confira sempre as fontes originais.</p>
+    </div>
+  </footer>
+
+  <!-- janela que abre ao clicar na cientista -->
+  <dialog id="janela">
+    <button class="fechar" id="botao-fechar">Fechar</button>
+    <div class="janela-topo">
+      <div class="foto" id="janela-foto"></div>
+      <div>
+        <small id="janela-categoria"></small>
+        <h3 id="janela-nome"></h3>
+        <p id="janela-area"></p>
+      </div>
+    </div>
+    <h4>Quem é</h4>
+    <p id="janela-quem"></p>
+    <h4>O que pesquisou</h4>
+    <p id="janela-tese"></p>
+    <h4>Por que é importante</h4>
+    <p id="janela-importancia"></p>
+    <p class="aviso">Foto: <a id="janela-fonte" href="#" target="_blank">ver fonte</a></p>
+  </dialog>
+
+  <script src="js/dados.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
